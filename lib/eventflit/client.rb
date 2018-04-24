@@ -1,4 +1,4 @@
-require 'eventflit-signature'
+require 'pusher-signature'
 
 module Eventflit
   class Client

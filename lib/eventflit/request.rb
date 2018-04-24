@@ -1,4 +1,4 @@
-require 'eventflit-signature'
+require 'pusher-signature'
 require 'digest/md5'
 require 'multi_json'
 
