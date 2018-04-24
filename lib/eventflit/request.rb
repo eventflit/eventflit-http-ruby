@@ -18,7 +18,7 @@ module Eventflit
         @head['Content-Type'] = 'application/json'
       end
 
-      request = Eventflit::Signature::Request.new(verb.to_s.upcase, uri.path, params)
+      request = Pusher::Signature::Request.new(verb.to_s.upcase, uri.path, params)
       request.sign(client.authentication_token)
       @params = request.signed_params
     end

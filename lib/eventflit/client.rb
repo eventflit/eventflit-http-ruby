@@ -63,7 +63,7 @@ module Eventflit
     def authentication_token
       raise ConfigurationError, :key unless @key
       raise ConfigurationError, :secret unless @secret
-      Eventflit::Signature::Token.new(@key, @secret)
+      Pusher::Signature::Token.new(@key, @secret)
     end
 
     # @private Builds a url for this app, optionally appending a path
