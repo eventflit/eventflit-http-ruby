@@ -1,8 +1,6 @@
 Eventflit gem
 ==========
 
-[![Build Status](https://secure.travis-ci.org/eventflit/eventflit-http-ruby.svg?branch=master)](http://travis-ci.org/eventflit/eventflit-http-ruby)
-
 ## Installation & Configuration
 
 Add eventflit to your Gemfile, and then run `bundle install`
